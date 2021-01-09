@@ -1,11 +1,11 @@
-﻿/* ==================================================================================
+/* ==================================================================================
 // BallManager.cs: This script is attached to the GameManager GameObject. The script
 // 1. manages the Game States
 // 2. declares the winner
 // ==================================================================================		
 // This material is meant for teaching/studying purposes only at Nanyang Technological University.		
 // Author: Christopher Luwanga
-// Nanyang Technological University. 2019.12
+// Nanyang Technological University. 
 // ================================================================================== */
 
 using System.Collections;
