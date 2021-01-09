@@ -18,9 +18,9 @@ public class CubeAnim : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.B))
         {
+            anim.SetTrigger("ChangetoBounce");
             anim.Play("Bounce");
             mState = State.BOUNCING;
-           //anim.SetTrigger("ChangetoBounce"); this is another way to trigger
         }
         if (Input.GetKeyDown(KeyCode.G))
             anim.SetTrigger("ChangetoScale");
