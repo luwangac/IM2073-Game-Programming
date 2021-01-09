@@ -6,7 +6,7 @@
 // ==================================================================================		
 // This material is meant for teaching/studying purposes only at Nanyang Technological University.		
 // Author: Christopher Luwanga
-// Nanyang Technological University. 2019.12
+// Nanyang Technological University.
 // ================================================================================== */
 
 using System.Collections;
