@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 public class Create : MonoBehaviour
@@ -15,13 +15,5 @@ public class Create : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1"))
             Instantiate(newObject, refPos.position,refPos.rotation);
-    }
-    void onGUI()
-    {
-        if (GUI.Button(new Rect(10, 10, 100, 40), "Spawn Soldier"))
-        {
-            print("You clicked the button");
-        }
-
     }
 }
