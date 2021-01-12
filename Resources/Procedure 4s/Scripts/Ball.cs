@@ -15,8 +15,8 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    public float _moveSpeed; //this is an exposed variable so be sure to initialize in inspector of object to which this script is attached
-    public float _rotationSpeed; //this is an exposed variable which you can initialize in inspector (Unity)
+    public float _moveSpeed=5.0f; //this is an exposed variable so be sure to initialize in inspector of object to which this script is attached
+    public float _rotationSpeed=30.0f; //this is an exposed variable which you can initialize in inspector (Unity)
     protected Rigidbody mRigidbody;
 
     protected string mVerticalAxisInputName = "Vertical";
